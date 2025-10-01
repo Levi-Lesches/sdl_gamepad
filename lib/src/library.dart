@@ -15,9 +15,9 @@ class SdlLibrary {
   static Timer? _eventLoop;
 
   static final _arena = Arena();
-  static final _eventPointer = _arena<sdl.SdlEvent>();
+  static final Pointer<sdl.SdlEvent> _eventPointer = _arena<sdl.SdlEvent>();
 
-  static void _update(_) {
+  static void _update(dynamic _) {
     sdl.sdlPumpEvents();
     sdl.sdlUpdateGamepads();
     while (true) {
