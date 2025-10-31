@@ -7,7 +7,7 @@ environment:
   sdk: ^3.5.0
 
 dependencies:
-  sdl3: ^2.3.6
+  sdl3: ^2.4.1
   ffi: ^2.1.3
   collection: ^1.18.0
 
