@@ -1,3 +1,7 @@
+## 1.1.2
+
+- Bumped package:sdl3 to 2.4.1
+
 ## 1.1.1
 
 - Bumped package:sdl3 0.1.34 -> 0.1.44
